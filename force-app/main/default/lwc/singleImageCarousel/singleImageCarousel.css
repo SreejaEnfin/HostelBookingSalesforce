@@ -1,0 +1,51 @@
+.text-section{
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 15px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+.pageNumbers{
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    padding: 8px 12px;
+    color: #f2f2f2;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #bbb;
+    margin: 0 2px;
+    display: inline-block;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
